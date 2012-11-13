@@ -15,7 +15,7 @@
             <p>To use, add code like this to the header of your theme:</p>
             <pre>
               &lt;?php if ($request->display_entry && isset($post)) {
-                  $theme->show_share_metadata($post);
+                  echo $theme->show_share_metadata($post);
               } ?&gt;
             </pre>
             <p>To display the Facebook and Twitter widgets, add code like this to the single entry part of the theme:</p>
