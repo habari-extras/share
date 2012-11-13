@@ -4,18 +4,6 @@
 
 class Share extends Plugin {
 
-	public function info() {
-		return array(
-			'name' => 'Share Plugin',
-			'version' => '0.1',
-			'url' => 'http://mgdm.net/',
-			'author' => 'Michael Maclean',
-			'authorurl' => 'http://mgdm.net/',
-			'license' => 'Apache License 2.0',
-			'description' => 'This plugin generates Facebook OpenGraph data, and adds it to the header of posts. It can also embed a Facebook Like button, and a Twitter Share button to the bottom of posts.'
-		);
-	}
-
 	public function action_init() {
 		$this->add_template('share_metadata', dirname(__FILE__) . '/share_metadata.php');
 		$this->add_template('share_ui', dirname(__FILE__) . '/share_ui.php');
