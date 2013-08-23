@@ -6,7 +6,7 @@
     <version>0.1</version>
     <url>http://mgdm.net/</url>
 
-    <description><![CDATA[Bit.ly plugin for Habari.]]></description>
+    <description><![CDATA[Facebook OpenGraph plugin for Habari.]]></description>
     <copyright>2010</copyright>
     <guid>ea7d6966-2b2a-40d7-a808-2a0e19024ea4</guid>
     <help>
